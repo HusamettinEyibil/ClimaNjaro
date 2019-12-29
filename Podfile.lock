@@ -1,16 +1,16 @@
 PODS:
-  - GIFImageView (0.1.0)
+  - Alamofire (4.9.1)
 
 DEPENDENCIES:
-  - GIFImageView
+  - Alamofire (~> 4.9)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - GIFImageView
+    - Alamofire
 
 SPEC CHECKSUMS:
-  GIFImageView: cd6a500b9bac1942cb66b73452b97baa6e75280d
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
 
-PODFILE CHECKSUM: 9671f171fced4f340848e54a753111739ab3fe1d
+PODFILE CHECKSUM: ebb97aaabddbe0de9704862be8ee83ef953268fc
 
 COCOAPODS: 1.7.5

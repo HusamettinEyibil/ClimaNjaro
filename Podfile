@@ -6,6 +6,7 @@ target 'ClimaNjaro' do
   use_frameworks!
 
   # Pods for ClimaNjaro
-	pod 'GIFImageView'
+	pod 'Alamofire', '~> 4.9'
+	
 
 end

@@ -3,21 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		345BED7823B8FFC800AE7F9A /* WeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 345BED7723B8FFC800AE7F9A /* WeatherTableViewCell.xib */; };
+		345BED7B23B902C400AE7F9A /* RequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BED7A23B902C400AE7F9A /* RequestHelper.swift */; };
+		34CD633423B8E4410016CDBF /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CD633223B8E4410016CDBF /* WeatherTableViewCell.swift */; };
+		34CD633723B8E71C0016CDBF /* CellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CD633623B8E71C0016CDBF /* CellModel.swift */; };
+		34CD633923B8ED580016CDBF /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CD633823B8ED580016CDBF /* WeatherViewController.swift */; };
 		34F6CEC423B77C3F004019F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F6CEC323B77C3F004019F7 /* AppDelegate.swift */; };
 		34F6CEC623B77C3F004019F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F6CEC523B77C3F004019F7 /* ViewController.swift */; };
 		34F6CEC923B77C3F004019F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F6CEC723B77C3F004019F7 /* Main.storyboard */; };
 		34F6CECB23B77C40004019F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34F6CECA23B77C40004019F7 /* Assets.xcassets */; };
 		34F6CECE23B77C40004019F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F6CECC23B77C40004019F7 /* LaunchScreen.storyboard */; };
-		34FF112A23B8167700895DED /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FF112923B8167700895DED /* UIImage+Gif.swift */; };
 		69215E1913F9540071E1CDEF /* Pods_ClimaNjaro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04585B51854F33A7AFE5D51A /* Pods_ClimaNjaro.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04585B51854F33A7AFE5D51A /* Pods_ClimaNjaro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimaNjaro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		345BED7723B8FFC800AE7F9A /* WeatherTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherTableViewCell.xib; sourceTree = "<group>"; };
+		345BED7A23B902C400AE7F9A /* RequestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHelper.swift; sourceTree = "<group>"; };
+		34CD633223B8E4410016CDBF /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
+		34CD633623B8E71C0016CDBF /* CellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellModel.swift; sourceTree = "<group>"; };
+		34CD633823B8ED580016CDBF /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		34F6CEC023B77C3F004019F7 /* ClimaNjaro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimaNjaro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34F6CEC323B77C3F004019F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34F6CEC523B77C3F004019F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +34,6 @@
 		34F6CECA23B77C40004019F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34F6CECD23B77C40004019F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34F6CECF23B77C40004019F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34FF112923B8167700895DED /* UIImage+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
 		AE4DE82C3B69E6559F1145D6 /* Pods-ClimaNjaro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimaNjaro.debug.xcconfig"; path = "Target Support Files/Pods-ClimaNjaro/Pods-ClimaNjaro.debug.xcconfig"; sourceTree = "<group>"; };
 		D55F62F3E983486BB4798348 /* Pods-ClimaNjaro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimaNjaro.release.xcconfig"; path = "Target Support Files/Pods-ClimaNjaro/Pods-ClimaNjaro.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,6 +56,23 @@
 				04585B51854F33A7AFE5D51A /* Pods_ClimaNjaro.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		345BED7923B902A800AE7F9A /* RequestHelper */ = {
+			isa = PBXGroup;
+			children = (
+				345BED7A23B902C400AE7F9A /* RequestHelper.swift */,
+			);
+			path = RequestHelper;
+			sourceTree = "<group>";
+		};
+		34CD632F23B8E3ED0016CDBF /* WeatherTableView */ = {
+			isa = PBXGroup;
+			children = (
+				34CD633223B8E4410016CDBF /* WeatherTableViewCell.swift */,
+				345BED7723B8FFC800AE7F9A /* WeatherTableViewCell.xib */,
+			);
+			path = WeatherTableView;
 			sourceTree = "<group>";
 		};
 		34F6CEB723B77C3F004019F7 = {
@@ -75,7 +100,6 @@
 				34FF112523B80F3200895DED /* Model */,
 				34FF112323B80F1E00895DED /* Controller */,
 				34FF112423B80F2700895DED /* View */,
-				34FF112923B8167700895DED /* UIImage+Gif.swift */,
 			);
 			path = ClimaNjaro;
 			sourceTree = "<group>";
@@ -83,7 +107,10 @@
 		34FF112323B80F1E00895DED /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				345BED7923B902A800AE7F9A /* RequestHelper */,
+				34CD632F23B8E3ED0016CDBF /* WeatherTableView */,
 				34F6CEC523B77C3F004019F7 /* ViewController.swift */,
+				34CD633823B8ED580016CDBF /* WeatherViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -99,6 +126,7 @@
 		34FF112523B80F3200895DED /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				34CD633623B8E71C0016CDBF /* CellModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -120,7 +148,6 @@
 				AE4DE82C3B69E6559F1145D6 /* Pods-ClimaNjaro.debug.xcconfig */,
 				D55F62F3E983486BB4798348 /* Pods-ClimaNjaro.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -184,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				345BED7823B8FFC800AE7F9A /* WeatherTableViewCell.xib in Resources */,
 				34F6CECE23B77C40004019F7 /* LaunchScreen.storyboard in Resources */,
 				34F6CECB23B77C40004019F7 /* Assets.xcassets in Resources */,
 				34F6CEC923B77C3F004019F7 /* Main.storyboard in Resources */,
@@ -239,7 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34FF112A23B8167700895DED /* UIImage+Gif.swift in Sources */,
+				34CD633723B8E71C0016CDBF /* CellModel.swift in Sources */,
+				34CD633923B8ED580016CDBF /* WeatherViewController.swift in Sources */,
+				34CD633423B8E4410016CDBF /* WeatherTableViewCell.swift in Sources */,
+				345BED7B23B902C400AE7F9A /* RequestHelper.swift in Sources */,
 				34F6CEC623B77C3F004019F7 /* ViewController.swift in Sources */,
 				34F6CEC423B77C3F004019F7 /* AppDelegate.swift in Sources */,
 			);
