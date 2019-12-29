@@ -1,0 +1,16 @@
+PODS:
+  - GIFImageView (0.1.0)
+
+DEPENDENCIES:
+  - GIFImageView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GIFImageView
+
+SPEC CHECKSUMS:
+  GIFImageView: cd6a500b9bac1942cb66b73452b97baa6e75280d
+
+PODFILE CHECKSUM: 9671f171fced4f340848e54a753111739ab3fe1d
+
+COCOAPODS: 1.7.5

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ClimaNjaro" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0bp-PU-77P">
+                                <rect key="frame" x="0.0" y="20" width="414" height="716"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Çok Bulutlu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nvw-W2-r4b">
+                                <rect key="frame" x="162.66666666666666" y="135" width="89" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="89" id="66L-tV-TVt"/>
+                                    <constraint firstAttribute="height" constant="20" id="7ac-96-xwV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TgC-rc-iBH">
+                                <rect key="frame" x="180" y="173" width="54" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="9ec-Q7-JLF"/>
+                                    <constraint firstAttribute="width" constant="54" id="QBK-YM-Be2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="48"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="İstanbul" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M9V-97-X93">
+                                <rect key="frame" x="159" y="90" width="96" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="96" id="4bw-5a-kHN"/>
+                                    <constraint firstAttribute="height" constant="30" id="AAh-oQ-XZp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="0.0" height="1"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0bp-PU-77P" secondAttribute="bottom" id="24N-ie-PSk"/>
+                            <constraint firstItem="0bp-PU-77P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="C0A-oc-WP9"/>
+                            <constraint firstItem="M9V-97-X93" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="I68-TS-BB1"/>
+                            <constraint firstItem="0bp-PU-77P" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="asC-HM-guz"/>
+                            <constraint firstItem="nvw-W2-r4b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="awG-pP-aPY"/>
+                            <constraint firstItem="M9V-97-X93" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="nQX-BT-RhX"/>
+                            <constraint firstItem="TgC-rc-iBH" firstAttribute="top" secondItem="nvw-W2-r4b" secondAttribute="bottom" constant="18" id="o61-0d-nOa"/>
+                            <constraint firstItem="TgC-rc-iBH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qKU-uv-FAa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0bp-PU-77P" secondAttribute="trailing" id="wiN-6g-mpF"/>
+                            <constraint firstItem="nvw-W2-r4b" firstAttribute="top" secondItem="M9V-97-X93" secondAttribute="bottom" constant="15" id="xvq-dl-PSC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="0bp-PU-77P" id="thU-l7-RxN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
