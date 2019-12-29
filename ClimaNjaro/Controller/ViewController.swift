@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import GIFImageView
 
 class ViewController: UIViewController {
     

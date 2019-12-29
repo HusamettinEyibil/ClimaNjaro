@@ -38,6 +38,7 @@ class WeatherViewController: UIViewController {
             if textField.text != "" {
                 var cell = CellModel()
                 cell.cityName = textField.text!
+                let _ = getWeatherData(cell)
                 self.cellArray.append(cell)
                 self.tableView.reloadData()
             }

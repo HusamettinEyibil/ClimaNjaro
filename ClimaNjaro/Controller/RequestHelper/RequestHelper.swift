@@ -11,6 +11,17 @@ import Alamofire
 
 func getWeatherData(_ cell : CellModel) -> CellModel {
     let cell = cell
+    let params = ["q" : cell.cityName,
+        "APPID" : apiKey]
+    Alamofire.request("https://api.openweathermap.org/data/2.5/weather", method: .get, parameters: params).response { (response) in
+        if response.error != nil {
+            print("Error : \(response.error)")
+            
+        } else {
+            print("Success")
+            
+        }
+    }
     
-    Alamofire.request("")
+    return CellModel()
 }
